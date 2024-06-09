@@ -17,3 +17,6 @@ console.log("div : ", num1 / num2);
 
 //modulo operator - for finding remainder
 console.log("remainder : ", num1 % num2);
+
+//exponentiation (power operator)
+console.log("num1 to the power num1 : ", num1 ** num2);
