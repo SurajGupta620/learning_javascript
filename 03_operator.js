@@ -21,14 +21,34 @@ console.log("remainder : ", num1 % num2);
 //exponentiation (power operator)
 console.log("num1 to the power num2 : ", num1 ** num2);
 
+
 //assignment operator (use for assign values to variables)
 let age = 18;
 age = age + 2; //age += 2;
 age = age - 3; //age -= 3;
 console.log("age : ", age);
 
-//unary operator
+
+
+//unary operator (Single operand)
 let newAge = ++age; //pre-increment(change, then use)
 newAge = age++; //post-increment (use, then change)
 newAge = --age; //pre-decrement
 newAge = age--; //post-decrement
+
+
+
+//comparison operator (used for compare values)
+//(>, >=, <, <=, ==, !=, ===)
+let num3 = 18;
+console.log(num3 < 18);  //false
+console.log(num3 <= 18); //true
+console.log(num3 > 18);  //false
+console.log(num3 >= 18); //true
+console.log(num3 == 18); //true
+console.log(num3 != 18); //false
+
+//(== only compare value, not type) (=== compare type & value)
+let str = "18";
+console.log(num3 == str); //true
+console.log(num3 === str); //false
