@@ -52,3 +52,13 @@ console.log(num3 != 18); //false
 let str = "18";
 console.log(num3 == str); //true
 console.log(num3 === str); //false
+
+
+//Logical operator(&&,||,!)
+let course = "Enrooled";
+let courseState = "Completed";
+if (course == "Enrooled" && courseState == "Completed") {
+    console.log("You have completed our course");
+} else{
+    console.log("Enrool and complete our course");
+}
