@@ -92,3 +92,28 @@ const newNums = myNumers
 
 
 console.log(newNums);
+
+
+
+//reduce method
+
+const shoppingCart = [
+    {
+        itemName: "iphone",
+        price: 75000
+    },
+    {
+        itemName: "clothes",
+        price: 20000
+    },
+    {
+        itemName: "books",
+        price: 10000
+    }
+];
+
+const totalToPay = shoppingCart.reduce((acc, item) => {
+    return acc + item.price;
+}, 0);
+
+console.log(totalToPay);
